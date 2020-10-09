@@ -1,0 +1,7 @@
+Algoritmo dolare_pesos
+	Escribir "Ingrese los dolares:  "; 
+	Leer  cantidad 
+	resultado<-cantidad *3.775; 
+	Escribir "En pesos es: ", resultado; 
+
+FinAlgoritmo
