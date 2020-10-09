@@ -1,0 +1,44 @@
+Algoritmo zodiacal
+	// PARA INGRESEAR EL MES EN EL PROGRAMA INGRESE CON SU NUMERO Y NO CON EL NOMBRE DEL MES. 
+	definir a,b como entero	
+	Escribir "escriba el dia: " a;
+	leer a; 
+	Escribir "escriba el mes: " b; 
+	leer b;
+	si a>=21 & b>=3 o a<=19 & b=4 Entonces
+		Escribir "su signo es Aries"
+	FinSi
+	si a>=20 & b>=4 o a<=20 & b=5 Entonces
+		Escribir "su signo es Tauro"
+	FinSi
+	si a>=21 & b>=5 o a<=20 & b=6 Entonces
+		Escribir "su signo es Geminis"
+	FinSi
+	si a>=21 & b>=6 o a<=22 & b=7 Entonces
+		Escribir "su signo es Cancer"
+	FinSi
+	si a>=23 & b>=7 o a<=22 & b=8 Entonces
+		Escribir "su signo es Leo"
+	FinSi
+	si a>=23 & b>=8 o a<=22 & b=9 Entonces
+		Escribir "su signo es Virgo"
+	FinSi
+	si a>=23 & b>=9 o a<=22 & b=10 Entonces
+		Escribir "su signo es Libra"
+	FinSi
+	si a>=23 & b>=10 o a<=21 & b=11 Entonces
+		Escribir "su signo es Escorpio"
+	FinSi
+	si a>=23 & b>=11 o a<=21 & b=12 Entonces
+		Escribir "su signo es Sagitario"
+	FinSi
+	si a>=22 & b>=12 o a<=21 & b=1 Entonces
+		Escribir "su signo es Capricornio"
+	FinSi
+	si a>=20  & b>=1 o a<=20 & b=2 Entonces
+		Escribir "su signo es Acuario"
+	FinSi
+	si a>=21 & b>=2 o a<=20 & b=3 Entonces
+		Escribir "su signo es Piscis"
+	FinSi
+FinAlgoritmo
