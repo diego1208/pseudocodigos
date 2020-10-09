@@ -1,0 +1,39 @@
+Algoritmo valoracion_alumno
+	definir a,b,c,d,e Como Real;
+	Escribir  "Ingrese el valor de la primera nota: ";
+	leer a;
+	Escribir  "Ingrese el valor de la sgunda nota: ";
+	Leer  b; 
+	Escribir  "Ingrese el valor de la tercera nota: ";
+	leer c;
+	Escribir  "Ingrese el valor de la cuarta nota nota: ";
+	leer d;
+	e= (a+b+c+d)/4
+	
+	Escribir "El promedio del estudiante es: " e;
+	
+	Si e<= 2.0 Entonces
+		Escribir ("su rendimiento es DESASTROSO");
+	SiNo
+		Si e <= 2.9 entonces 
+			Escribir  ("su promedio es MALO");
+		SiNo
+			si e <= 3.6 Entonces
+				Escribir ("su promedio es TIPICO");
+			SiNo
+				Si e <=4.1 Entonces
+					Escribir ("su promedio es CONVENCIONAL");
+				SiNo
+					si e<= 4.7 Entonces
+						Escribir ("su promedio es PLAUSIBLE");
+					SiNo
+						si e<= 5.0 Entonces
+							Escribir ("su rendimiento es DESTACABLE");
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	Fin Si
+FinAlgoritmo
+ 
