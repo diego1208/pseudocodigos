@@ -1,0 +1,30 @@
+Algoritmo num_pares_impares_positivos_negativos
+	Definir  x, num, pares, impares, positivos, negativos Como Entero;
+	
+	pares<-0;
+	impares<-0;
+	positivos<-0;
+	negativos<-0;
+	para x<-1 Hasta 10 Hacer
+		Escribir "digite un numero: ";
+		Leer  num;
+		
+		si num mod 2=0 Entonces
+			pares<-pares+1;
+		SiNo
+			impares<-impares+1;
+		FinSi
+	
+	
+	si num >0 Entonces
+		positivos<-positivos+1;
+	SiNo
+		negativos<-negativos+1
+	FinSi
+	FinPara
+	Escribir "el total de numeros pares es: " pares;
+	Escribir "el total de numeros impares es: " impares;
+	Escribir  "el total de numeros negativos es " negativos;
+	Escribir  "el total de numeros positivos es " positivos; 
+
+FinAlgoritmo
