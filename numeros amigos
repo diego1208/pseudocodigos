@@ -1,0 +1,26 @@
+Algoritmo numerosamigos
+	Definir num,num2,suma,suma2,i  Como Entero; 
+	Repetir
+		Escribir  "Ingrese el valor de los numeros";
+		leer num,num2; 
+	Hasta Que num>0 & num2>0 
+	suma<-0;i<-1;suma2<-0;
+	Repetir
+		si num%i=0 Entonces
+			suma<-suma+i;
+		FinSi
+		i<-i+1;
+	Hasta Que num=i
+	i<-1;
+	Repetir
+		si num2%i=0 entonces 
+			suma2<-suma2+i;
+		FinSi
+		i<-i+1;
+	Hasta Que num2=i
+	si num=suma2 & num2=suma Entonces
+		Escribir "si son numeros amigos";
+	sino 
+		Escribir  "no son amigos"; 
+	FinSi
+FinAlgoritmo
